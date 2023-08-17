@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.hi {
+    width: 100%;
+    height: 30px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.mainbody1 {
+    width:350px;
+    margin: auto;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 31px;
+    width: 103px;
+    margin-top: 15px;
+}
+.logo span {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.signin {
+    font-size: 28px;
+}
+.font13 {
+    font-size: 13px !important;
+}
+.font12 {
+    font-size: 12px;
+}
+.emailinput input,.conbtn {
+    width: 100%;
+    height:30px;
+}
+input::placeholder {
+    font: 12px sans-serif;
+    padding:5px;
+}
+.emailinput input:focus,
+.conbtn:active,
+.button:active {
+    border: 1px solid rgb(44, 167, 238); 
+    outline: 3px solid lightblue;   
+    
+}
+.emailinput label {
+    font-size: 12px;
+    color: #2B2B2B;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+
+.comt {
+    font-size: 13px;
+    color: #111111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+.eye {
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(59, 174, 241);
+}
+.playbtn {
+    font-size: 10px;
+    color: gray;
+}
+body a {
+    text-decoration: none;
+    color: #0066C0;
+    font-size: 12px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+a:hover{
+    color:rgb(173, 64, 64);
+    text-decoration: underline;
+}
+.breakk {
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.breakk ::before,.breakk ::after {
+    content: "";
+    position: relative;
+    bottom: 30%;
+    display: inline-block;
+    width: 120px;
+    border-top: 1px solid #e7e7e7;
+    align-items: center;
+}
+
+.button {
+    width:348px;
+    height: 31px;
+    margin: 15px auto;
+    background-color: #e7e9ec;
+    background-image: linear-gradient(#F9F9FA,#e7e9ec);
+    border: 1px solid #a6a6a6;
+    border-radius:3px ;
+    border-top-color: #949494;
+}
+.button p {
+    text-align: center;
+    padding: 5px 10px 10px 11px;
+    font-size: 13px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.abc ,p {
+    text-align: center;
+}
+
+.foot p {
+    color: #555555;
+    font-size: 11px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+footer {
+    background-color: whitesmoke;
+    border-top: 1px solid rgb(218, 213, 213);
+    height: 140px;
+}

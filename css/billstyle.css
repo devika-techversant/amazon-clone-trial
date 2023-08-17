@@ -1,0 +1,177 @@
+*{
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+header {
+    background-color: rgb(250, 248, 248);
+    height: 80px;
+}
+.head {
+    display: flex;
+    border-bottom: whitesmoke;
+}
+.image img{
+    height: 31px;
+    width: 103px;
+}
+
+.image {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    margin-left: 15%;
+    cursor: pointer;
+}
+.checkout h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0f1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    padding-left: 300%;
+    padding-top: 10%;
+    cursor: pointer;
+}
+
+.icon {
+    padding-left: 50%;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.address  {
+    display: flex;
+}
+.address h1{
+    color: #c45500;
+    font-size: 18px;
+    padding-left: 14%;
+}
+ .rdbtn a {
+    color: #007185;
+    text-decoration: none;
+ }
+.rdbtn a:hover{
+    color:rgb(173, 64, 64);
+    text-decoration: underline;
+}
+.address1 {
+    border: 1px solid rgb(197, 195, 195);
+    width: 50%;
+    margin-left: 17%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.add-body h1{
+    font-size: 18px;
+    color: #0f1111;
+    padding-left: 5%;
+}
+
+.rdbtn label{
+    font-size: 14px;
+    color: #0f1111;
+    text-align: center;
+}
+.rdbtn1:hover,
+.rdbtn2:hover {
+    border: 1px solid rgb(207, 129, 13);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgb(234, 215, 219);
+}
+.rdbtn1:active {
+    border: 1px solid rgb(207, 129, 13);
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(234, 215, 219);
+}
+
+.rdbtn1 ,.rdbtn2 {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.add-icon {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.button {
+    background-color: #eaa212;
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;border-radius:15px;
+  }
+
+  .abc {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .order {
+    border: 1px solid rgb(197, 195, 195);
+    margin-right: 100px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    margin-left: 40px;
+  }
+  .button1 {
+    background-color: #eaa212;
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;border-radius:15px;
+    width: 100%;
+  }
+
+  .desc {
+    font-size: 12px;
+    color: #0f1111;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  td {
+    font-size: 14px;
+  }
+
+  .delivery a{
+    color: #007185;
+    text-decoration: none;
+  }
+  .delivery a:hover{
+    color:rgb(173, 64, 64);
+    text-decoration: underline;
+}
+
+.payment h1 {
+    font-size: 18px;
+    color: #565959;
+    padding-left: 14%;
+}
+.last {
+    width: 50%;
+    margin-left: 13%;
+    color: #565959;
+    font-size: 12px;
+}
+.last a{
+    color: #007185;
+    text-decoration: none;
+  }
+  .last a:hover{
+    color:rgb(173, 64, 64);
+    text-decoration: underline;
+}
